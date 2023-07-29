@@ -1,4 +1,4 @@
-# Live Object Detection Web Application
+# Live Object Detection Flask Web Application using YOLOv8
 
 The Live Object Detection web application is a Flask-based application that allows users to perform real-time object detection on a live video stream or a video URL. It utilizes the YOLOv8 (You Only Look Once) model for object detection and provides an interactive interface to control various settings for the video stream and detection.
 
