@@ -1,7 +1,14 @@
 # Live Object Detection Flask Web Application using YOLOv8
 
-The Live Object Detection web application is a Flask-based application that allows users to perform real-time object detection on a live video stream or a video URL. It utilizes the YOLOv8 (You Only Look Once) model for object detection and provides an interactive interface to control various settings for the video stream and detection.
+The Object Detection Live Stream Application is a Flask-based web application that allows users to process live video streams or videos from URLs and perform real-time object detection using YOLO (You Only Look Once) model. The application uses Streamlink to fetch video streams from URLs and Ultralytics YOLO for object detection. It provides a user-friendly interface to control various settings, such as flipping the video horizontally, showing the live stream, and running object detection on the video.
 
+## Features
+
+- Fetch live video streams or videos from URLs using Streamlink
+- Perform real-time object detection using Ultralytics YOLO model
+- Allow users to toggle preview, flip the video horizontally, and run object detection
+- Adjust object detection confidence threshold using a slider
+- Display real-time object detection results on the live stream
 
 ## Screenshots
 
@@ -9,14 +16,6 @@ The Live Object Detection web application is a Flask-based application that allo
 :-----------------------------------------------:|:-----------------------------------------------:
 Homepage                                         | Dashboard
 
-
-## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How it Works](#how-it-works)
-- [Control Features](#control-features)
-- [Technologies Used](#technologies-used)
 ## Prerequisites
 
 Before running the Live Object Detection web application, ensure you have the following prerequisites installed on your system:
@@ -99,3 +98,27 @@ The application provides the following control features:
 - Socket.IO (For Real-Time Updates)
 - Bootstrap (Frontend Styling)
 - HTML/CSS/JavaScript
+
+## Supported Video Platforms
+
+This application supports video streams from a variety of platforms, including but not limited to:
+
+1. Twitch
+2. YouTube
+3. Dailymotion
+4. Facebook
+5. Mixer
+6. Periscope
+7. Vimeo
+8. Livestream
+9. Steam Broadcasting
+10. and more...
+
+Please refer to the official Streamlink documentation for an up-to-date list of supported platforms: [Streamlink Documentation](https://streamlink.github.io/streamlink/)
+
+## Acknowledgments
+
+- Ultralytics YOLO for providing the object detection model.
+- Streamlink for video processing from various platforms.
+- Flask, Bootstrap, jQuery, and SocketIO for the web application framework.
+
