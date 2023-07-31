@@ -28,14 +28,10 @@ Before running the Live Object Detection web application, ensure you have the fo
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/yourusername/live-object-detection.git
+   git clone https://github.com/raoumairwaheed/yolov8-Object-detection-web-application-flask.git
    ```
 
 2. Navigate to the project directory:
-
-   ```
-   cd live-object-detection
-   ```
 
 3. Install the required Python packages using `pip`:
 
