@@ -1,4 +1,4 @@
-# Live Object Detection Flask Web Application using YOLOv8
+# Live Object Detection on Live Streams or Videos Flask Web Application using YOLOv8
 
 The Object Detection Live Stream Application is a Flask-based web application that allows users to process live video streams or videos from URLs and perform real-time object detection using YOLO (You Only Look Once) model. The application uses Streamlink to fetch video streams from URLs and Ultralytics YOLO for object detection. It provides a user-friendly interface to control various settings, such as flipping the video horizontally, showing the live stream, and running object detection on the video.
 
